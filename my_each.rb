@@ -7,6 +7,6 @@ def my_each(collection)
   end
 end
 
-my_each(collection) do |name|
+my_each([1,2,3,4]) do |name|
   puts i
 end
