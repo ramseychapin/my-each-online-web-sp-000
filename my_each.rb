@@ -6,3 +6,7 @@ def my_each(collection)
     i += 1
   end
 end
+
+my_each(collection) do |name|
+  puts i
+end
